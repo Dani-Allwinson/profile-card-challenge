@@ -20,7 +20,7 @@ main{
   overflow: hidden;
 }
 .container{
-    background: url(/images/bg-pattern-card.svg);
+    background: url(images/bg-pattern-card.svg);
     margin: 100px auto;
     width: 350px;
     height: auto;
