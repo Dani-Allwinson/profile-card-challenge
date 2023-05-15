@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Kumbh',sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    /* background-color: hsl(227, 10%, 46%) */
+    background-color: hsl(189, 71%, 42%);
+    font-family: 'Kumbh',sans-serif;
+    font-size: 18px;
+}
+main{
+    background-image: url(images/bg-pattern-top.svg), url(images/bg-pattern-bottom.svg);
+  background-position: right 45vw bottom 45vh, 45vw 45vh;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+.container{
+    background: url(/images/bg-pattern-card.svg);
+    margin: 100px auto;
+    width: 350px;
+    height: auto;
+    border: 1px solid transparent;
+    border-radius: 15px;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20% auto 0 auto;
+    background-color: #fff;
+    border-radius: 0px 0px 13px 13px;
+    margin-top: 40%;
+}
+.content img{
+    border-radius: 50%;
+    border: 6px solid #fff;
+    position: relative;
+    bottom: 50px;
+}
+.name-details{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    width: 60%;
+    position: relative;
+    bottom: 2rem;
+    row-gap: 15px;
+}
+.networks{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    border-top: 1px solid hsla(229, 23%, 23%, 0.185);
+    padding: 25px 0 20px 0;
+}
+.followers{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.num{
+    color: hsla(229, 23%, 23%);
+    font-weight: 600;
+    font-size: 18px;
+}
+.followers p{
+    font-size: 0.7rem;
+    letter-spacing: 1px;
+    line-height: 20px;
+    color: hsla(229, 23%, 23%, 0.548);
+}
+#name{
+    font-weight: 800;
+    color:  hsl(229, 23%, 23%);
+    position: relative;
+    right: 15px;
+}
+#age{
+    font-family: 'Kumbh',sans-serif;
+    position: absolute;
+    bottom: 1.9rem;
+    font-weight: 400;
+    left: 10rem;
+    font-size: 1.35rem;
+    color: hsl(229, 23%, 23%,0.700);
+}
+
+#place{
+    font-size: 0.95rem;
+    font-weight: 300;
+    color: hsl(229, 23%, 23%,0.500);
+    letter-spacing: .4px;
+
+}
+
+
+
+
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
