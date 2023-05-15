@@ -21,6 +21,8 @@ main{
 }
 .container{
     background: url(images/bg-pattern-card.svg);
+    background-repeat: no-repeat;
+    overflow: hidden;
     margin: 100px auto;
     width: 350px;
     height: auto;
